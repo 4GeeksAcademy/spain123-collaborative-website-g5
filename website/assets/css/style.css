@@ -1,3 +1,79 @@
-body{
-    background: #BDBDBD;
+body {
+  background: #BDBDBD;
 }
+
+.jumbotron-bg {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+
+
+
+
+
+img{
+   border-radius: 50%; 
+   padding: 20px;
+}
+
+.custom-card {
+      /* width: 100%; */
+      max-width: 50px;
+      margin: auto;
+    }
+ .gray-text {
+        color: gray;
+        text-align: left;
+    }
+.card-body{
+    margin-left:0;
+    padding-left:none;
+}
+.card{
+    padding-left:1px;
+}
+
+img{
+    border-radius: 150px;
+}
+
+.body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 40px;
+background-color: white
+}
+
+.text-section{
+    flex: 1;
+    padding: 40px;
+}
+.text-section h1{
+    font-size: 2em;
+    color: black;
+    margin-bottom: 15px;
+}
+.text-section p{
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+.image-section{
+    flex-shrink: 0;
+}
+.image-section{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid green;
+} 
